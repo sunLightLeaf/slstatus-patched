@@ -69,7 +69,7 @@ static const struct arg args[] = {
 	{ ipv4,          "ethernet: %s] ",             "enp3s0"},
 	{ battery_perc,         "[%s%% ",             "BAT1"},
 	{ battery_remaining,    "%s] ",             "BAT1"},
-	{ backlight_perc,    "[%s] ",             "amdgpu_bl1"},
+	{ backlight_perc,    "[%s%%] ",             "amdgpu_bl1"},
 	//{ cpu_perc,           "%s|",                NULL },
 	{ keymap,               "[%s",                NULL },
 	{ keyboard_indicators,  " %s]",                "c" },
